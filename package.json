@@ -4,7 +4,8 @@
   "description": "Stock Portfolio",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "karma start karma.conf.js",
+    "preinstall": "npm i -g karma-cli"
   },
   "repository": {
     "type": "git",
@@ -12,6 +13,17 @@
   },
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "angular-mocks": "^1.5.8",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.3.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.2"
+  },
+  "dependencies": {
+    "angular": "^1.5.8"
+  },
   "bugs": {
     "url": "https://github.com/dmitrymar/stock_portfolio/issues"
   },

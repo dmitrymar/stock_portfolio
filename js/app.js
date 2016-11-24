@@ -1,6 +1,6 @@
-var app = angular.module('portfolio', []);
+var myApp = angular.module('portfolio',[])
 
-app.controller('SymbolCtrl', function($scope, $http, $interval) {
+myApp.controller('SymbolCtrl', function($scope, $http, $interval) {
     'use strict';
 
     $scope.portfolio = [];
@@ -67,3 +67,7 @@ app.controller('SymbolCtrl', function($scope, $http, $interval) {
     $interval($scope.refreshPortfolio, 5000);
 
 });
+ 
+myApp.controller('HelloWorldController', ['$scope', function($scope) {
+	  $scope.greeting = 'Hello World!';
+}]);
