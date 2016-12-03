@@ -21,33 +21,15 @@
 
 
 describe("either portfolio is empty or has stocks", function() {
-  beforeEach(module('portfolio'));
-  var a;
-
-  it("and so is a spec", function() {
-    a = true;
-	expect(scope.todos.length).toBe(0);
-    expect(a).toBe(true);
+  it("Verify symbol data is available after form submission", function() {
+	      // your test assertion goes here
   });
 });
 
-
-describe("Hello World example", function() {
-
-	  beforeEach(module('portfolio'));
-
-	  var HelloWorldController,
-		  scope;
-
-	  beforeEach(inject(function ($rootScope, $controller) {
-		      scope = $rootScope.$new();
-		      HelloWorldController = $controller('HelloWorldController', {
-			            $scope: scope
-			          });
-		    }));
-
-	  it("says hello world!", function() {
-		      expect(scope.greeting).toEqual("Hello World!");
-		    });
+describe("having no stocks in Portfolio'", function() {
+	  // individual tests go here
 });
 
+describe("having some saved Stocksers", function() {
+	  // individual tests go here
+});
