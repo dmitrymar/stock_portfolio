@@ -1,2 +1,4 @@
-# stock_portfolio
-Portfolio of Stocks. 
+
+Portfolio of Stocks.
+
+### `npm test` 
